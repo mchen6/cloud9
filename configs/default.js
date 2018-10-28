@@ -86,7 +86,7 @@ var config = [
             "ext/themes/themes",
             "ext/themes_default/themes_default",
             "ext/panels/panels",
-            "ext/dockpanel/dockpanel",
+            "ext/dockpanel/dockpanel",                                                      //*
             "ext/openfiles/openfiles",
             "ext/tree/tree",
             "ext/save/save",
@@ -95,11 +95,11 @@ var config = [
             "ext/newresource/newresource",
             "ext/undo/undo",
             "ext/clipboard/clipboard",
-            "ext/searchinfiles/searchinfiles",
+            "ext/searchinfiles/searchinfiles",                                              //*
             "ext/searchreplace/searchreplace",
-            "ext/quickwatch/quickwatch",
+            "ext/quickwatch/quickwatch",                                                    //*
             "ext/gotoline/gotoline",
-            "ext/preview/preview",
+            // "ext/preview/preview",                                                          //*
             // "ext/deploy/deploy",
             //"ext/log/log",
             "ext/help/help",
@@ -113,12 +113,12 @@ var config = [
             //"ext/preview/preview",
             "ext/extmgr/extmgr",
             //"ext/run/run", //Add location rule
-            "ext/runpanel/runpanel", //Add location rule
-            "ext/debugger/debugger", //Add location rule
-            "ext/dbg-node/dbg-node",
+            // "ext/runpanel/runpanel", //Add location rule                                    //*
+            "ext/debugger/debugger", //Add location rule                                    //*
+            "ext/dbg-node/dbg-node",                                                        //*
             "ext/noderunner/noderunner", //Add location rule
             "ext/console/console",
-            "ext/consolehints/consolehints",
+            // "ext/consolehints/consolehints",                                                //*
             "ext/tabbehaviors/tabbehaviors",
             "ext/tabsessions/tabsessions",
             //"ext/keybindings/keybindings",
@@ -149,9 +149,9 @@ var config = [
             "ext/colorpicker/colorpicker",
             "ext/gitblame/gitblame",
             //"ext/githistory/githistory",
-            "ext/autosave/autosave",
-            "ext/revisions/revisions",
-            "ext/language/liveinspect",
+            "ext/autosave/autosave",                                                        //*
+            "ext/revisions/revisions",                                                      //*
+            "ext/language/liveinspect",                                                     //*
             "ext/splitview/splitview",
             "ext/terminal/terminal"
         ]
