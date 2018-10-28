@@ -21,7 +21,7 @@ var markup = require("text!ext/console/console.xml");
 var theme = require("text!ext/console/themes/arthur.css");
 var inputHistory = require("ext/console/input_history");
 var anims = require("ext/anims/anims");
-var preview = require("ext/preview/preview");
+// var preview = require("ext/preview/preview");
 
 // Some constants used throughout the plugin
 var KEY_TAB = 9, KEY_CR = 13, KEY_UP = 38, KEY_ESC = 27, KEY_DOWN = 40;
@@ -388,7 +388,7 @@ module.exports = ext.register("ext/console/console", {
 
             var page = apf.findHost(pNode.parentNode.parentNode);
             if (page && page.id !== "pgOutput")
-                page.setCaption("Console");
+                // page.setCaption("Console");
 
             if (pNode.className.indexOf("quitting") !== -1)
                 apf.setStyleClass(pNode, "quit_proc", ["quitting_proc"]);
@@ -449,7 +449,7 @@ module.exports = ext.register("ext/console/console", {
         if ((lang = /^(\w+)-start$/.exec(message.type)) && runners.indexOf(lang[1]) >= 0) {
             var clearOnRun = settings.model.queryValue("auto/console/@clearonrun");
             if (apf.isTrue(clearOnRun) && window["txtOutput"])
-                txtOutput.clear();
+                // txtOutput.clear();
 
             this.createProcessLog(message.pid, lang[1]);
             return;
@@ -811,7 +811,7 @@ module.exports = ext.register("ext/console/console", {
                 txtConsoleInput.focus();
         }
 
-        tabConsole.addEventListener("afterrender", function() {
+        /*tabConsole.addEventListener("afterrender", function() {
             txtOutput.addEventListener("keydown", kdHandler);
             txtConsole.addEventListener("keydown", kdHandler);
 
@@ -840,7 +840,7 @@ module.exports = ext.register("ext/console/console", {
             setTimeout(function(){
                 txtConsoleInput.focus();
             });
-        });
+        });*/
 
         this.splitter = winDbgConsole.parentNode.$handle;
         this.splitter.addEventListener("dragdrop", function(e){
@@ -851,7 +851,7 @@ module.exports = ext.register("ext/console/console", {
         this.nodes.push(winDbgConsole);
 
 
-        txtConsoleInput.ace.commands.bindKeys({
+        /*txtConsoleInput.ace.commands.bindKeys({
             "up": function(input) {input.setValue(_self.cliInputHistory.getPrev(), 1);},
             "down": function(input) {input.setValue(_self.cliInputHistory.getNext(), 1);},
             "Return": function(input) {
@@ -862,7 +862,7 @@ module.exports = ext.register("ext/console/console", {
                 input.setValue("");
                 txtConsole.$container.scrollTop = txtConsole.$container.scrollHeight;
             }
-        });
+        });*/
 
         if (this.logged.length) {
             this.logged.forEach(function(text){
@@ -908,7 +908,7 @@ module.exports = ext.register("ext/console/console", {
 
     newtab : function() {
         var c9shell = tabConsole.add("Console");
-        c9shell.setAttribute("class", "pgConsole");
+        // c9shell.setAttribute("class", "pgConsole");
         c9shell.setAttribute("closebtn", true);
         var c9shellText = c9shell.appendChild(new apf.text({
             margin     : "3 0 0 0",
