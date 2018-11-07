@@ -1,3 +1,12 @@
+v2.3.1
+======
+* Make it possible to install Pylon via NPM (intended for further testing)
+
+v2.3.0
+======
+* Renaming the project to Pylon IDE - Minimum set of changes #48
+* Publishing to NPM as global "pln" package
+
 v2.2.2
 ======
 * Fix to be able to close tabs with image view #46
