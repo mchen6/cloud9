@@ -151,8 +151,8 @@ var config = [
             "ext/colorpicker/colorpicker",
             "ext/gitblame/gitblame",
             //"ext/githistory/githistory",
-            "ext/autosave/autosave",                                                        //*
-            "ext/revisions/revisions",                                                      //*
+            //"ext/autosave/autosave",                                                        //*
+            //"ext/revisions/revisions",                                                      //*
             "ext/language/liveinspect",                                                     //*
             "ext/splitview/splitview",
             "ext/terminal/terminal"
