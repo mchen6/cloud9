@@ -167,17 +167,17 @@ module.exports = ext.register("ext/save/save", {
           }, true);
         });
 
-        this.nodes.push(
+        /*this.nodes.push(
             menus.$insertByIndex(barTools, new apf.button({
                 id       : "btnSave",
-                // icon     : "save.png",
-                // caption  : "Save",
+                icon     : "save.png",
+                caption  : "Save",
                 tooltip  : "Save",
                 skin     : "c9-toolbarbutton-glossy",
                 disabled : "{!!!tabEditors.activepage}",
                 command  : "quicksave"
             }), 1000)
-        );
+        );*/
 
         var saveItem, saveAsItem, itmRevertToSaved;
         this.nodes.push(
@@ -219,19 +219,19 @@ module.exports = ext.register("ext/save/save", {
         });
 
         // if we retrieve an actual 'real' file save event then we'll set the UI state to 'saving'
-        ide.addEventListener("fs.beforefilesave", function () {
+        /*ide.addEventListener("fs.beforefilesave", function () {
             _self.setUiStateSaving();
-        });
+        });*/
 
         // and afterwards we'll show 'SAVED' or 'NOT SAVED' depending on whether it succeeded
-        ide.addEventListener("fs.afterfilesave", function (e) {
+        /*ide.addEventListener("fs.afterfilesave", function (e) {
             if (e.success) {
                 _self.setUiStateSaved();
             }
             else {
                 _self.setUiStateOffline();
             }
-        });
+        });*/
     },
 
     init : function(amlNode){
@@ -712,7 +712,7 @@ module.exports = ext.register("ext/save/save", {
     /**
      * Set the UI state to 'saving'
      */
-    setUiStateSaving: function () {
+    /*setUiStateSaving: function () {
         btnSave.show();
 
         apf.setStyleClass(btnSave.$ext, "saving", ["saved", "error"]);
@@ -720,12 +720,12 @@ module.exports = ext.register("ext/save/save", {
         btnSave.currentState = SAVING;
         btnSave.setCaption("Saving");
     },
-
+*/
     $uiStateSavedTimeout: null,
     /**
      * Set the UI state to 'saved'
      */
-    setUiStateSaved: function () {
+    /*setUiStateSaved: function () {
         var _self = this;
 
         btnSave.show();
@@ -744,9 +744,9 @@ module.exports = ext.register("ext/save/save", {
                 btnSave.hide();
             }
         }, 4000);
-    },
+    },*/
 
-    setUiStateOffline: function () {
+    /*setUiStateOffline: function () {
         btnSave.show();
 
         // don't blink!
@@ -755,7 +755,7 @@ module.exports = ext.register("ext/save/save", {
 
         btnSave.currentState = OFFLINE;
         btnSave.setCaption("Not saved");
-    },
+    },*/
 
     destroy : function(){
         menus.remove("File/~", 1100);
