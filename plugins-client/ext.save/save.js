@@ -170,8 +170,8 @@ module.exports = ext.register("ext/save/save", {
         this.nodes.push(
             menus.$insertByIndex(barTools, new apf.button({
                 id       : "btnSave",
-                icon     : "save.png",
-                caption  : "Save",
+                // icon     : "save.png",
+                // caption  : "Save",
                 tooltip  : "Save",
                 skin     : "c9-toolbarbutton-glossy",
                 disabled : "{!!!tabEditors.activepage}",
