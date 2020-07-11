@@ -17,6 +17,9 @@ Linux*i686*)  echo "Linux 32 bit"
 Linux*arm*)  echo "Linux ARM"
     node server.js "$@" -a x-www-browser
     ;;
+Linux*aarch*)  echo "Linux ARM"
+    node server.js "$@" -a x-www-browser
+    ;;
 
 Darwin*)  echo  "OSX"
     node server.js "$@" -a open
