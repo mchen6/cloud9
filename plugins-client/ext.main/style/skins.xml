@@ -1,5 +1,5 @@
 <?xml version='1.0'?>
-<a:skin xmlns:a="http://ajax.org/2005/aml">
+<a:skin xmlns:a="https://github.com/pylonide/pylon">
 <a:checkbox name="cboffline">
     <a:style><![CDATA[
         .cboffline {
@@ -160,7 +160,7 @@
             width:86px;
             height:20px;
             position:absolute;
-            background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='86' height='20'%3E%3ClinearGradient id='b' x2='0' y2='100%25'%3E%3Cstop offset='0' stop-color='%23bbb' stop-opacity='.1'/%3E%3Cstop offset='1' stop-opacity='.1'/%3E%3C/linearGradient%3E%3CclipPath id='a'%3E%3Crect width='86' height='20' rx='3' fill='%23fff'/%3E%3C/clipPath%3E%3Cg clip-path='url%28%23a%29'%3E%3Cpath fill='%23555' d='M0 0h43v20H0z'/%3E%3Cpath fill='%23e05d44' d='M43 0h43v20H43z'/%3E%3Cpath fill='url%28%23b%29' d='M0 0h86v20H0z'/%3E%3C/g%3E%3Cg fill='%23fff' text-anchor='middle' font-family='DejaVu Sans,Verdana,Geneva,sans-serif' font-size='110'%3E%3Ctext x='225' y='150' fill='%23010101' fill-opacity='.3' transform='scale%28.1%29' textLength='330'%3Estatus%3C/text%3E%3Ctext x='225' y='140' transform='scale%28.1%29' textLength='330'%3Estatus%3C/text%3E%3Ctext x='635' y='150' fill='%23010101' fill-opacity='.3' transform='scale%28.1%29' textLength='330'%3Eoffline%3C/text%3E%3Ctext x='635' y='140' transform='scale%28.1%29' textLength='330'%3Eoffline%3C/text%3E%3C/g%3E%3C/svg%3E") no-repeat 0 0;
+            background: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='86' height='20'%3e%3clinearGradient id='b' x2='0' y2='100%25'%3e%3cstop offset='0' stop-color='%23bbb' stop-opacity='.1'/%3e%3cstop offset='1' stop-opacity='.1'/%3e%3c/linearGradient%3e%3cclipPath id='a'%3e%3crect width='86' height='20' rx='3' fill='white'/%3e%3c/clipPath%3e%3cg clip-path='url(%23a)'%3e%3cpath fill='%23555' d='M0 0h43v20H0z'/%3e%3cpath fill='%23e05d44' d='M43 0h43v20H43z'/%3e%3cpath fill='url(%23b)' d='M0 0h86v20H0z'/%3e%3c/g%3e%3cg fill='white' text-anchor='middle' font-family='DejaVu Sans%2cVerdana%2cGeneva%2csans-serif' font-size='110'%3e%3ctext x='225' y='150' fill='%23010101' fill-opacity='.3' transform='scale(.1)' textLength='330'%3estatus%3c/text%3e%3ctext x='225' y='140' transform='scale(.1)' textLength='330'%3estatus%3c/text%3e%3ctext x='635' y='150' fill='%23010101' fill-opacity='.3' transform='scale(.1)' textLength='330'%3eoffline%3c/text%3e%3ctext x='635' y='140' transform='scale(.1)' textLength='330'%3eoffline%3c/text%3e%3c/g%3e%3c/svg%3e") no-repeat 0 0;
             top:7px;
             right: 3px;
             display: none;
@@ -1116,7 +1116,6 @@
 
                 border             : 1px solid #000101;
 
-                -moz-box-shadow    : 0px 1px 0px rgba(255, 255, 255, 0.3) inset, 0px 1px 0px 0px rgba(255, 255, 255, 0.5);
                 -webkit-box-shadow : 0px 1px 0px rgba(255, 255, 255, 0.3) inset, 0px 1px 0px 0px rgba(255, 255, 255, 0.5);
                 box-shadow         : 0px 1px 0px rgba(255, 255, 255, 0.3) inset, 0px 1px 0px 0px rgba(255, 255, 255, 0.5);
 
@@ -1516,7 +1515,6 @@
         .toolbar .subbar .toolbarbuttonOver {
             border: 1px solid #b3b3b3;
             -webkit-box-shadow: 0px 1px 0px #ffffff;
-            -moz-box-shadow: 0px 1px 0px #ffffff;
             box-shadow: 0px 1px 0px #ffffff;
             -webkit-border-radius: 4px;
             -moz-border-radius: 4px;
@@ -1555,7 +1553,6 @@
         .toolbar .subbar .toolbarbuttonDown {
             border: 1px solid #b3b3b3;
             -webkit-box-shadow: 0px 1px 0px #ffffff;
-            -moz-box-shadow: 0px 1px 0px #ffffff;
             box-shadow: 0px 1px 0px #ffffff;
             -webkit-border-radius: 4px;
             -moz-border-radius: 4px;
@@ -1571,7 +1568,6 @@
         .toolbar .subbar .toolbarbuttonChecked {
             border: 1px solid #b3b3b3;
             -webkit-box-shadow: 0px 1px 0px #ffffff;
-            -moz-box-shadow: 0px 1px 0px #ffffff;
             box-shadow: 0px 1px 0px #ffffff;
             -webkit-border-radius: 4px;
             -moz-border-radius: 4px;
@@ -1858,7 +1854,6 @@
             border-radius : 5px;
             border:1px solid #1c1c1c;
 
-            -moz-box-shadow    : 0px 1px 0px rgba(255, 255, 255, 0.15) inset, 0px 1px 0px 0px rgba(255, 255, 255, 0.1);
             -webkit-box-shadow : 0px 1px 0px rgba(255, 255, 255, 0.15) inset, 0px 1px 0px 0px rgba(255, 255, 255, 0.1);
             box-shadow         : 0px 1px 0px rgba(255, 255, 255, 0.15) inset, 0px 1px 0px 0px rgba(255, 255, 255, 0.1);
 
@@ -1918,7 +1913,6 @@
             border-radius : 5px;
             border:1px solid #1c1c1c;
 
-            -moz-box-shadow    : 0px 1px 0px rgba(255, 255, 255, 0.15) inset, 0px 1px 0px 0px rgba(255, 255, 255, 0.1);
             -webkit-box-shadow : 0px 1px 0px rgba(255, 255, 255, 0.15) inset, 0px 1px 0px 0px rgba(255, 255, 255, 0.1);
             box-shadow         : 0px 1px 0px rgba(255, 255, 255, 0.15) inset, 0px 1px 0px 0px rgba(255, 255, 255, 0.1);
 
@@ -2131,7 +2125,6 @@
             border-radius : 5px;
             border:1px solid #1c1c1c;
 
-            -moz-box-shadow    : 0px 1px 0px rgba(255, 255, 255, 0.15) inset, 0px 1px 0px 0px rgba(255, 255, 255, 0.1);
             -webkit-box-shadow : 0px 1px 0px rgba(255, 255, 255, 0.15) inset, 0px 1px 0px 0px rgba(255, 255, 255, 0.1);
             box-shadow         : 0px 1px 0px rgba(255, 255, 255, 0.15) inset, 0px 1px 0px 0px rgba(255, 255, 255, 0.1);
 
@@ -2170,7 +2163,6 @@
             border-radius : 5px;
             border:1px solid #1c1c1c;
 
-            -moz-box-shadow    : 0px 1px 0px rgba(255, 255, 255, 0.15) inset, 0px 1px 0px 0px rgba(255, 255, 255, 0.1);
             -webkit-box-shadow : 0px 1px 0px rgba(255, 255, 255, 0.15) inset, 0px 1px 0px 0px rgba(255, 255, 255, 0.1);
             box-shadow         : 0px 1px 0px rgba(255, 255, 255, 0.15) inset, 0px 1px 0px 0px rgba(255, 255, 255, 0.1);
 
@@ -2343,43 +2335,54 @@
             cursor              : pointer;
             position            : absolute;
             cursor              : default;
-            background-image    : url(images/c9-no-repeat.png);
+            /* Fontawesome 5 - cog - #cecece */
+            background-image    : url("data:image/svg+xml,%3csvg aria-hidden='true' data-prefix='fas' data-icon='cog' class='svg-inline--fa fa-cog fa-w-16' role='img' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3e%3cpath fill='%23cecece' d='M444.788 291.1l42.616 24.599c4.867 2.809 7.126 8.618 5.459 13.985-11.07 35.642-29.97 67.842-54.689 94.586a12.016 12.016 0 0 1-14.832 2.254l-42.584-24.595a191.577 191.577 0 0 1-60.759 35.13v49.182a12.01 12.01 0 0 1-9.377 11.718c-34.956 7.85-72.499 8.256-109.219.007-5.49-1.233-9.403-6.096-9.403-11.723v-49.184a191.555 191.555 0 0 1-60.759-35.13l-42.584 24.595a12.016 12.016 0 0 1-14.832-2.254c-24.718-26.744-43.619-58.944-54.689-94.586-1.667-5.366.592-11.175 5.459-13.985L67.212 291.1a193.48 193.48 0 0 1 0-70.199l-42.616-24.599c-4.867-2.809-7.126-8.618-5.459-13.985 11.07-35.642 29.97-67.842 54.689-94.586a12.016 12.016 0 0 1 14.832-2.254l42.584 24.595a191.577 191.577 0 0 1 60.759-35.13V25.759a12.01 12.01 0 0 1 9.377-11.718c34.956-7.85 72.499-8.256 109.219-.007 5.49 1.233 9.403 6.096 9.403 11.723v49.184a191.555 191.555 0 0 1 60.759 35.13l42.584-24.595a12.016 12.016 0 0 1 14.832 2.254c24.718 26.744 43.619 58.944 54.689 94.586 1.667 5.366-.592 11.175-5.459 13.985L444.788 220.9a193.485 193.485 0 0 1 0 70.2zM336 256c0-44.112-35.888-80-80-80s-80 35.888-80 80 35.888 80 80 80 80-35.888 80-80z'%3e%3c/path%3e%3c/svg%3e");
             background-repeat   : no-repeat;
+            background-size     : 16px 16px;
             top: -32px;
             -moz-user-select: -moz-none;
             -khtml-user-select: none;
             -webkit-user-select: none;
             -o-user-select: none;
             user-select: none;
+            top: -29px;
         }
 
         .panel-settings {
-        	background-position: 0px -270px;
+        	background-position: center;
         	right: 0;
         }
         .panel-settings:hover,
         .panel-settings.header-btnDown {
-        	background-position: -30px -270px;
+          /* Fontawesome 5 - cog - #49a8fa */
+          background-image: url("data:image/svg+xml,%3csvg aria-hidden='true' data-prefix='fas' data-icon='cog' class='svg-inline--fa fa-cog fa-w-16' role='img' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3e%3cpath fill='%2349a8fa' d='M444.788 291.1l42.616 24.599c4.867 2.809 7.126 8.618 5.459 13.985-11.07 35.642-29.97 67.842-54.689 94.586a12.016 12.016 0 0 1-14.832 2.254l-42.584-24.595a191.577 191.577 0 0 1-60.759 35.13v49.182a12.01 12.01 0 0 1-9.377 11.718c-34.956 7.85-72.499 8.256-109.219.007-5.49-1.233-9.403-6.096-9.403-11.723v-49.184a191.555 191.555 0 0 1-60.759-35.13l-42.584 24.595a12.016 12.016 0 0 1-14.832-2.254c-24.718-26.744-43.619-58.944-54.689-94.586-1.667-5.366.592-11.175 5.459-13.985L67.212 291.1a193.48 193.48 0 0 1 0-70.199l-42.616-24.599c-4.867-2.809-7.126-8.618-5.459-13.985 11.07-35.642 29.97-67.842 54.689-94.586a12.016 12.016 0 0 1 14.832-2.254l42.584 24.595a191.577 191.577 0 0 1 60.759-35.13V25.759a12.01 12.01 0 0 1 9.377-11.718c34.956-7.85 72.499-8.256 109.219-.007 5.49 1.233 9.403 6.096 9.403 11.723v49.184a191.555 191.555 0 0 1 60.759 35.13l42.584-24.595a12.016 12.016 0 0 1 14.832 2.254c24.718 26.744 43.619 58.944 54.689 94.586 1.667 5.366-.592 11.175-5.459 13.985L444.788 220.9a193.485 193.485 0 0 1 0 70.2zM336 256c0-44.112-35.888-80-80-80s-80 35.888-80 80 35.888 80 80 80 80-35.888 80-80z'%3e%3c/path%3e%3c/svg%3e");
         }
         .c9-header-plus {
-        	background-position: 0px -294px;
-        	right:31px;
-        	top: 0;
+          /* Fontawesome 5 - plus - #cecece */
+          background-image: url("data:image/svg+xml,%3csvg aria-hidden='true' data-prefix='fas' data-icon='plus' class='svg-inline--fa fa-plus fa-w-14' role='img' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 448 512'%3e%3cpath fill='%23cecece' d='M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z'%3e%3c/path%3e%3c/svg%3e");
+          background-size: 16px;
+          background-position: center;
+          right:31px;
+          top: 2px;
         }
         .deploy.c9-header-plus {
             right: 1px;
         }
 
         .c9-header-plus.header-btnOver {
-        	background-position: -30px -294px;
+          /* Fontawesome 5 - plus - #49a8fa */
+          background-image: url("data:image/svg+xml,%3csvg aria-hidden='true' data-prefix='fas' data-icon='plus' class='svg-inline--fa fa-plus fa-w-14' role='img' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 448 512'%3e%3cpath fill='%2349a8fa' d='M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z'%3e%3c/path%3e%3c/svg%3e");
         }
         .c9-header-plus.header-btnDisabled {
             background-position: -60px -294px;
         }
         .c9-header-minus {
-            background-position: 0px -320px;
-            right: 1px;
-            top: 0;
+          /* Fontawesome 5 - minus - #cecece */
+          background-image: url("data:image/svg+xml,%3csvg aria-hidden='true' data-prefix='fas' data-icon='minus' class='svg-inline--fa fa-minus fa-w-14' role='img' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 448 512'%3e%3cpath fill='%23cecece' d='M416 208H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h384c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z'%3e%3c/path%3e%3c/svg%3e");
+          background-size: 16px;
+          background-position: center;
+          right: 1px;
+          top: 2px;
         }
 
         .deploy.c9-header-minus {
@@ -2387,10 +2390,12 @@
         }
 
         .c9-header-minus.header-btnOver {
-            background-position: -30px -320px;
+          /* Fontawesome 5 - minus - #49a8fa */
+          background-image: url("data:image/svg+xml,%3csvg aria-hidden='true' data-prefix='fas' data-icon='minus' class='svg-inline--fa fa-minus fa-w-14' role='img' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 448 512'%3e%3cpath fill='%2349a8fa' d='M416 208H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h384c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z'%3e%3c/path%3e%3c/svg%3e");
         }
         .c9-header-minus.header-btnDisabled {
-            background-position: -60px -320px;
+          /* Fontawesome 5 - minus - #383838 */
+          background-image: url("data:image/svg+xml,%3csvg aria-hidden='true' data-prefix='fas' data-icon='minus' class='svg-inline--fa fa-minus fa-w-14' role='img' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 448 512'%3e%3cpath fill='%23383838' d='M416 208H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h384c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z'%3e%3c/path%3e%3c/svg%3e");
         }
         .header-btnOver {
             background-color: rgba(255,255,255,.3);
@@ -2402,7 +2407,7 @@
             background-color: rgba(0,0,0,.05);
         }
         .c9-header-divider:before {
-            background: url(images/c9-no-repeat.png) no-repeat -100px -293px;
+            /* background: url(images/c9-no-repeat.png) no-repeat -100px -293px; */
             content: "";
             display: block;
             height: 26px;
@@ -2766,7 +2771,6 @@
             font-size: 14px;
 
             -webkit-box-shadow: 0 0px 3px 0 #000000;
-            -moz-box-shadow: 0 0px 3px 0 #000000;
             box-shadow: 0 0px 3px 0 #000000;
 
             position: relative;
@@ -3348,7 +3352,7 @@
         }
 
         .cbgrey.cbcontainer span {
-            color : #333;
+            color : #cecece;
             top   : 0px;
         }
 
@@ -3479,7 +3483,6 @@
 <a:codeeditor name="codeeditor">
     <a:style><![CDATA[
         .ace_smooth_loading {
-            -moz-box-sizing: border-box;
             box-sizing: border-box;
             height: 100%;
         }
@@ -3645,24 +3648,6 @@
         .ace_gutter-layer .ace_gutter-cell.stack {
             background-image: url("icons/debugger/stack_co.png");
             background-position: 4px center;
-        }
-
-        /*
-         * Themes
-
-             ooooooooooooo oooo
-             8'   888   `8 `888
-                  888       888 .oo.    .ooooo.  ooo. .oo.  .oo.    .ooooo.   .oooo.o
-                  888       888P"Y88b  d88' `88b `888P"Y88bP"Y88b  d88' `88b d88(  "8
-                  888       888   888  888ooo888  888   888   888  888ooo888 `"Y88b.
-                  888       888   888  888    .o  888   888   888  888    .o o.  )88b
-                 o888o     o888o o888o `Y8bod8P' o888o o888o o888o `Y8bod8P' 8""888P'
-
-         */
-
-        .ace-solarized-light .fm-window .fm-content,
-        .fm-window .fm-header .hcontent {
-            background-color: rgba(220, 220, 220, 0.73);
         }
     ]]></a:style>
     <a:presentation>
@@ -4935,7 +4920,6 @@
             border-radius         : 5px;
             border                : 1px solid #1c1c1c;
 
-            -moz-box-shadow    : 0px 1px 0px rgba(255, 255, 255, 0.15) inset, 0px 1px 0px 0px rgba(255, 255, 255, 0.1);
             -webkit-box-shadow : 0px 1px 0px rgba(255, 255, 255, 0.15) inset, 0px 1px 0px 0px rgba(255, 255, 255, 0.1);
             box-shadow         : 0px 1px 0px rgba(255, 255, 255, 0.15) inset, 0px 1px 0px 0px rgba(255, 255, 255, 0.1);
 
@@ -4984,7 +4968,6 @@
             border              : 1px solid #00040A;
             padding             : 0 3px 0;
 
-            -moz-box-shadow    : 0px 3px 15px 0px rgba(0, 0, 0, 0.65);
             -webkit-box-shadow : 0px 3px 15px 0px rgba(0, 0, 0, 0.65);
             box-shadow         : 0px 3px 15px 0px rgba(0, 0, 0, 0.65);
 
@@ -5311,7 +5294,6 @@
             -moz-border-radius: 2px;
             border-radius: 2px;
             -webkit-box-shadow: 0px 1px 1px #9fa0a3;
-            -moz-box-shadow: 0px 1px 1px #9fa0a3;
             box-shadow: 0px 1px 1px #9fa0a3;
             border-top: 1px solid #dddddd;
             border-bottom: 1px solid #fafafa;
@@ -5422,7 +5404,6 @@
             -moz-border-radius: 4px;
             border-radius: 4px;
             -webkit-box-shadow: 0 2px 8px #8A8A8A;
-            -moz-box-shadow: 0 2px 8px #8A8A8A;
             box-shadow: 0 2px 8px #8A8A8A;
             background: #ffffff;
             z-index: 1000;
@@ -5522,7 +5503,6 @@
             cursor : default;
             margin : 0;
             -webkit-box-shadow: 0px 1px 0px #EDEDED;
-            -moz-box-shadow: 0px 1px 0px #EDEDED;
             box-shadow: 0px 1px 0px #EDEDED, inset 0px 1px 0px 0px #ededed;
             padding-bottom: 5px;
             padding-left: 6px;
@@ -5642,7 +5622,7 @@
             font-family: Tahoma, Arial;
             overflow: hidden;
             cursor: default;
-            color : #333;
+            color : #cecece;
             padding : 2px;
             white-space : nowrap;
         }
@@ -6049,7 +6029,6 @@
             display : none;
             border:1px solid #00040a;
 
-            -moz-box-shadow    : 0px 3px 15px 0px rgba(0, 0, 0, 0.65);
             -webkit-box-shadow : 0px 3px 15px 0px rgba(0, 0, 0, 0.65);
             box-shadow         : 0px 3px 15px 0px rgba(0, 0, 0, 0.65);
 
@@ -6165,7 +6144,6 @@
             -moz-border-radius    : 9px;
             -webkit-border-radius : 9px;
             border-radius         : 9px;
-            -moz-box-shadow       : 0 1px 5px rgba(0,0,0,0.7), inset 0 1px 0px rgba(255,255,255,0.18);
             -webkit-box-shadow    : 0 1px 5px rgba(0,0,0,0.7), inset 0 1px 0px rgba(255,255,255,0.21);
             box-shadow            : 0 1px 5px rgba(0,0,0,0.7), inset 0 1px 0px rgba(255,255,255,0.18);
             border: 1px solid #000000;
@@ -6385,7 +6363,6 @@
             border : 1px solid #000;
 
             -webkit-box-shadow: -3px 3px 8px rgba(0, 0, 0, 0.2);
-            -moz-box-shadow: -3px 3px 8px rgba(0, 0, 0, 0.2);
             box-shadow: -3px 3px 8px rgba(0, 0, 0, 0.2);
         }
 
@@ -6477,7 +6454,6 @@
             );
 
             -webkit-box-shadow: -3px 3px 8px rgba(0, 0, 0, 0.2);
-            -moz-box-shadow: -3px 3px 8px rgba(0, 0, 0, 0.2);
             box-shadow: -3px 3px 8px rgba(0, 0, 0, 0.2);
 
             bottom: -2px;
@@ -6522,7 +6498,6 @@
             margin-top : 10px;
             border-top : 3px solid #333;
             -webkit-box-shadow: -3px 3px 8px rgba(0, 0, 0, 0.2);
-            -moz-box-shadow: -3px 3px 8px rgba(0, 0, 0, 0.2);
             box-shadow: -3px 3px 8px rgba(0, 0, 0, 0.2);
         }
 
@@ -6542,6 +6517,7 @@
 <a:modalwindow name="fm-window">
         <a:style><![CDATA[
             .fm-window {
+              background-color: #262626 !important;
                 position : relative;
                 overflow : hidden;
                 z-index  : 10000;
@@ -6560,13 +6536,6 @@
             }
 
             .fm-window .fm-header .hcontent {
-                background-color: rgba(220, 220, 220, 0.93);
-                background-image: url(images/c9-repeat-x.png),
-                                  url(images/c9-noise-light-10.png),
-                                  url(images/c9-noise-light-10.png),
-                                  url(images/c9-noise-light-10.png);
-                background-position: 0 -138px, 0 0;
-                background-repeat: repeat-x;
                 position      : relative;
                 overflow      : hidden;
                 height        : 26px;
@@ -6580,19 +6549,16 @@
                 text-transform : uppercase;
             }
 
-            .dark .fm-window .fm-header .hcontent{
-                background-position: 0 -1318px, 0 0;
-            }
-
         .fm-window .fm-header {
+          background-color: #ff0000 !important;
             position : relative;
             overflow : hidden;
             height   : 32px;
-            top      : -30px;
+            top      : -28px;
         }
 
         .fm-window .fm-header .hcontent {
-            background    : url(images/c9-repeat-x.png)  repeat-x 0 -138px;
+          background-color: #262626 !important;
             position      : relative;
             overflow      : hidden;
             height        : 26px;
@@ -6600,27 +6566,22 @@
             font-family   : Arial;
             font-size     : 11.3px;
             line-height   : 14px;
-            color         : #595959;
-            text-shadow   : #fff 0px 1px 0px;
-            box-shadow 	  : -1px 0 0 0 rgba(255,255,255,.8) inset;
+            color         : #cecece;
+            text-shadow   : #000 0px 1px 0px;
+            box-shadow 	  : -1px 0 0 0 rgba(0,0,0,.8) inset;
             text-transform : uppercase;
         }
 
             .fm-window .fm-content {
+              background-color: #262626 !important;
                 position:absolute;
                 overflow:visible;
                 left : 0;
                 top  : 32px;
                 right : 0;
                 bottom : 0;
-                box-shadow: 0 1px 0 0 rgba(255,255,255,0.4) inset,
-                            -1px 0 0 0 rgba(255,255,255,.9) inset;
-                background-color: rgba(220, 220, 220, 0.9);
-                background-image:   -webkit-linear-gradient(180deg, rgba(0,0,0,.03) 0, transparent 35px),
-                					url(images/c9-noise-light-10.png),
-                					url(images/c9-noise-light-10.png),
-                                url(images/c9-noise-light-10.png),
-                					url(images/c9-noise-light-10.png);
+                box-shadow: 0 1px 0 0 rgba(0,0,0,0.4) inset,
+                            -1px 0 0 0 rgba(0,0,0,.9) inset;
             }
         ]]></a:style>
 
@@ -7172,7 +7133,6 @@
             border-radius         : 6px 6px 6px 6px;
 
             -webkit-box-shadow: 0 2px 10px 1px #000000;
-            -moz-box-shadow: 0 2px 10px 1px #000000;
             box-shadow: 0 2px 10px 1px #000000;
         }
 
@@ -7392,7 +7352,6 @@
             border : 1px solid #000;
 
             -webkit-box-shadow: -3px 3px 8px rgba(0, 0, 0, 0.2);
-            -moz-box-shadow: -3px 3px 8px rgba(0, 0, 0, 0.2);
             box-shadow: -3px 3px 8px rgba(0, 0, 0, 0.2);
         }
 
@@ -7418,7 +7377,6 @@
             border-radius         : 8px 8px 0 0;
 
             -webkit-box-shadow: inset 0px 1px 0px 0px #424242;
-            -moz-box-shadow: inset 0px 1px 0px 0px #424242;
             box-shadow: inset 0px 1px 0px 0px #424242;
         }
 
@@ -7649,7 +7607,6 @@
             font-size:11px;
             position:relative;
             -webkit-box-shadow: 0px 1px 0px #ffffff;
-            -moz-box-shadow: 0px 1px 0px #ffffff;
             box-shadow: 0px 1px 0px #ffffff;
             text-shadow  : rgba(17, 92, 158, .71) 0px 1px 0px;
             background: -webkit-gradient(linear,left bottom,left top,color-stop(0, rgb(71,73,77)),color-stop(1, rgb(49,52,55)));
@@ -8455,7 +8412,6 @@
 
             border:1px solid #1c1c1c;
 
-            -moz-box-shadow    : 0px 1px 0px rgba(255, 255, 255, 0.15) inset, 0px 1px 0px 0px rgba(255, 255, 255, 0.1);
             -webkit-box-shadow : 0px 1px 0px rgba(255, 255, 255, 0.15) inset, 0px 1px 0px 0px rgba(255, 255, 255, 0.1);
             box-shadow         : 0px 1px 0px rgba(255, 255, 255, 0.15) inset, 0px 1px 0px 0px rgba(255, 255, 255, 0.1);
 
@@ -8506,7 +8462,6 @@
             background : -webkit-gradient(linear, left top, left bottom, from(#393939), color-stop(1, #333333));
             background : -moz-linear-gradient(center bottom, #333333 0%, #393939 100%) repeat scroll 0 0 transparent;
 
-            -moz-box-shadow    : 0px 1px 0px rgba(255, 255, 255, 0.15) inset, 0px 1px 0px 0px rgba(255, 255, 255, 0.15);
             -webkit-box-shadow : 0px 1px 0px rgba(255, 255, 255, 0.15) inset, 0px 1px 0px 0px rgba(255, 255, 255, 0.15);
             box-shadow         : 0px 1px 0px rgba(255, 255, 255, 0.15) inset, 0px 1px 0px 0px rgba(255, 255, 255, 0.15);
 
@@ -8824,7 +8779,6 @@
             z-index  : 90000;
             background-color: #e8e8e8;
 
-            display  : -moz-box;
             display  : -webkit-box;
             display  : -ms-box;
         }
@@ -9252,8 +9206,7 @@
             background-color: #191818;
             border: 1px solid #111010;
             -webkit-box-shadow: 0 1px 0 0 #474748;
-           -moz-box-shadow: 0 1px 0 0 #474748;
-                box-shadow: 0 1px 0 0 #474748;
+              box-shadow: 0 1px 0 0 #474748;
 
             border-radius : 3px;
             -moz-border-radius: 3px;
@@ -9333,7 +9286,6 @@
         margin : 0 auto;
         overflow: hidden;
         position:relative;
-        -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.06) inset;
         -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.06) inset;
         box-shadow: 0 1px 0 rgba(255, 255, 255, 0.06) inset;
     }
@@ -9363,7 +9315,6 @@
 
         clip: rect(0px 4000px 30px 0px);
         display : -webkit-box;
-        display : -moz-box;
     }
 
     .tab_console .btncontainer > .btntab {
@@ -9372,7 +9323,6 @@
         min-width : 17px;
         max-width : 70px;
         -webkit-box-flex : 1;
-        -moz-box-flex : 1;
         position : relative;
         width : 0;
 
@@ -9518,8 +9468,7 @@
         background-image:    -moz-linear-gradient(top,#1e1e1e 0%, #2a2a2a 8px, #303030 13px, transparent 13px);
         background-image:         linear-gradient(top,#1e1e1e 0%, #2a2a2a 8px, #303030 13px, transparent 13px);
         -webkit-box-shadow: 0 -1px 0 0 #000;
-           -moz-box-shadow: 0 -1px 0 0 #000;
-                box-shadow: 0 -1px 0 0 #000;
+        box-shadow: 0 -1px 0 0 #000;
     }
 
     .tab_console .page.curpage{
@@ -9591,15 +9540,10 @@
         position : relative;
         z-index : 100;
 
-        /*-webkit-box-shadow : 0px 1px 0px rgba(255, 255, 255, 0.05) inset;
-           -moz-box-shadow : 0px 1px 0px rgba(255, 255, 255, 0.05) inset;
-                box-shadow : 0px 1px 0px rgba(255, 255, 255, 0.05) inset;*/
-
         /*box-shadow: 0 -1px 0 0 black inset, 0 1px 0 0 rgba(255, 255, 255, .06) inset;*/
         margin-bottom: 1px;
 
         display : -webkit-box;
-        display : -moz-box;
     }
 
     .editor_tab .btnsesssioncontainer.morepadding{
@@ -9618,7 +9562,6 @@
         min-width : 17px;
         max-width : 150px;
         -webkit-box-flex : 1;
-        -moz-box-flex : 1;
         position : relative;
         width : 0;
         line-height : 1.2em;
@@ -10174,12 +10117,6 @@
         display : none;
     }
 
-    .codeditorHolder .editor_tab {
-        background-color: rgba(220, 220, 220, 0.93);
-        background-image: url(images/c9-noise-light-10.png),
-                          url(images/c9-noise-light-10.png),
-                          url(images/c9-noise-light-10.png);
-    }
     .editor_tab .editor_bg {
         position : absolute;
         /* Old, from before merge
@@ -10203,14 +10140,21 @@
     .editor_tab .editor_bg .editor_bg_content {
         width: 430px;
         margin: 0 auto 0;
-        background: url(images/empty_editor_icon.png) no-repeat center 0;
-        padding-top: 170px;
+        padding-top: 0px;
         text-align: center;
         color: #333333;
         text-shadow : rgba(255, 255, 255, .71) 1px 1px 1px;
         font-size: 18px;
-        top : 25%;
+        top: 25%;
         position : relative;
+    }
+
+    .editor_tab .editor_bg .editor_bg_content .editor_bg_ghost_image {
+        width: 100px;
+        margin: 0 auto 0;
+        /* Fontawesome 5 - ghost-solid - #282828 */
+        background: url("data:image/svg+xml,%3csvg aria-hidden='true' data-prefix='fas' data-icon='ghost' class='svg-inline--fa fa-ghost fa-w-12' role='img' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 384 512'%3e%3cpath fill='%23282828' d='M186.1.09C81.01 3.24 0 94.92 0 200.05v263.92c0 14.26 17.23 21.39 27.31 11.31l24.92-18.53c6.66-4.95 16-3.99 21.51 2.21l42.95 48.35c6.25 6.25 16.38 6.25 22.63 0l40.72-45.85c6.37-7.17 17.56-7.17 23.92 0l40.72 45.85c6.25 6.25 16.38 6.25 22.63 0l42.95-48.35c5.51-6.2 14.85-7.17 21.51-2.21l24.92 18.53c10.08 10.08 27.31 2.94 27.31-11.31V192C384 84 294.83-3.17 186.1.09zM128 224c-17.67 0-32-14.33-32-32s14.33-32 32-32 32 14.33 32 32-14.33 32-32 32zm128 0c-17.67 0-32-14.33-32-32s14.33-32 32-32 32 14.33 32 32-14.33 32-32 32z'%3e%3c/path%3e%3c/svg%3e") no-repeat center 0;
+        padding-top: 170px;
     }
 
     .infraeditor.editor_tab .editor_bg .editor_bg_content {
@@ -10221,7 +10165,6 @@
         background: -webkit-gradient(linear,left bottom,left top,color-stop(0, rgb(237,237,237)),color-stop(1, rgb(255,255,255)));
         background: -moz-linear-gradient(center bottom,rgb(237,237,237) 0%,rgb(255,255,255) 100%);
         -webkit-box-shadow: 1px 1px 3px #aaaaaa;
-        -moz-box-shadow: 1px 1px 3px #aaaaaa;
         box-shadow: 1px 1px 1px #aaaaaa;
         padding: 15px 20px;
         margin-top: 21px;
@@ -10234,11 +10177,12 @@
     }
 
     .editor_tab .editor_bg .editor_bg_content .editor_bg_message {
-        color: #489829;
+        color: #49a8fa;
         font-family: georgia;
         padding-top: 4px;
-        background: url(images/green-arrow-left.png) no-repeat 0 0;
-        text-shadow : rgba(240, 240, 240, .71) 1px 1px 1px;
+        /* Fontawesome 5 - hand-point-up - #49a8fa */
+        background: url("data:image/svg+xml,%3csvg aria-hidden='true' data-prefix='fas' data-icon='hand-point-up' class='svg-inline--fa fa-hand-point-up fa-w-12' role='img' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 384 512'%3e%3cpath fill='%2349a8fa' d='M135.652 0c23.625 0 43.826 20.65 43.826 44.8v99.851c17.048-16.34 49.766-18.346 70.944 6.299 22.829-14.288 53.017-2.147 62.315 16.45C361.878 158.426 384 189.346 384 240c0 2.746-.203 13.276-.195 16 .168 61.971-31.065 76.894-38.315 123.731C343.683 391.404 333.599 400 321.786 400H150.261l-.001-.002c-18.366-.011-35.889-10.607-43.845-28.464C93.421 342.648 57.377 276.122 29.092 264 10.897 256.203.008 242.616 0 224c-.014-34.222 35.098-57.752 66.908-44.119 8.359 3.583 16.67 8.312 24.918 14.153V44.8c0-23.45 20.543-44.8 43.826-44.8zM136 416h192c13.255 0 24 10.745 24 24v48c0 13.255-10.745 24-24 24H136c-13.255 0-24-10.745-24-24v-48c0-13.255 10.745-24 24-24zm168 28c-11.046 0-20 8.954-20 20s8.954 20 20 20 20-8.954 20-20-8.954-20-20-20z'%3e%3c/path%3e%3c/svg%3e") no-repeat 0 0;
+        text-shadow : rgba(0, 0, 0, .71) 1px 1px 1px;
     }
 
     .editor_tab .editor_bg .editor_bg_message-top {
@@ -10456,6 +10400,7 @@
                     <div class="editor_divider"></div>
                 </div>
                 <div class="editor_bg_content">
+                    <div class="editor_bg_ghost_image"></div>
                     <div class="editor_bg_message">Open a file or create a new one to get started</div>
                 </div>
             </div>
@@ -10741,7 +10686,6 @@
             background: -webkit-gradient(linear,left bottom,left top,color-stop(0, rgb(209,209,209)),color-stop(1, rgb(227,227,227)));
             background: -moz-linear-gradient(center bottom,rgb(209,209,209) 0%,rgb(227,227,227) 100%);
             -webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2) inset;
-            -moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2) inset;
         }
 
         .extensions_tab .scale .btntab .tab_middle {
@@ -10879,7 +10823,6 @@
 
             clip: rect(0px 3000px 30px 0px);
             display : -webkit-box;
-            display : -moz-box;
         }
 
         .dockcol .docktab .btncontainer{
@@ -10903,7 +10846,6 @@
             min-width : 17px;
             max-width : 100px;
             -webkit-box-flex : 1;
-            -moz-box-flex : 1;
             width : 0;
 
             padding       : 3px 2px 4px;
@@ -10912,7 +10854,6 @@
             border-right  : 1px solid #464646;
             border-bottom : 1px solid #464646;
 
-            -moz-box-shadow: 0 1px 0 rgba(100, 100, 100, 0.26) inset;
             -webkit-box-shadow: 0 1px 0 rgba(100, 100, 100, 0.26) inset;
 
             background: url(images/black-tab_btn_bg.png) 0 0;
@@ -11362,7 +11303,6 @@
             font-size: 12px;
             text-overflow: ellipsis;
             -webkit-box-shadow: 0px 1px 0px #ffffff;
-            -moz-box-shadow: 0px 1px 0px #ffffff;
             box-shadow: 0px 1px 0px #ffffff;
         }
 
@@ -11411,7 +11351,6 @@
         .btextbox {
             position : relative;
             -webkit-box-shadow: 0px 1px 0px #424242;
-            -moz-box-shadow: 0px 1px 0px #424242;
             box-shadow: 0px 1px 0px #424242;
             background-image: linear-gradient(bottom, rgb(92,92,92) 0%, rgb(105,105,105) 75%, rgb(92,92,92) 100%);
             background-image: -o-linear-gradient(bottom, rgb(92,92,92) 0%, rgb(105,105,105) 75%, rgb(92,92,92) 100%);
@@ -11493,7 +11432,6 @@
             font-size: 12px;
             text-overflow: ellipsis;
             -webkit-box-shadow: 0px 1px 0px #ffffff;
-            -moz-box-shadow: 0px 1px 0px #ffffff;
             box-shadow: 0px 1px 0px #ffffff;
         }
 
@@ -11624,7 +11562,6 @@
             margin: 0;
             text-overflow: ellipsis;
             -webkit-box-shadow: 0px 1px 0px #ffffff;
-            -moz-box-shadow: 0px 1px 0px #ffffff;
             box-shadow: 0px 1px 0px #ffffff;
 
             font-size: 12px;
@@ -11725,7 +11662,6 @@
             background-color: #ffffff;
 
             -webkit-box-shadow: inset 0px 1px 1px 0px #cccccc;
-            -moz-box-shadow: inset 0px 1px 1px 0px #cccccc;
             box-shadow: inset 0px 1px 1px 0px #cccccc;
 
             border-width: 1px;
@@ -11902,7 +11838,7 @@
             -o-user-select: none;
             user-select: none;
 
-            color: #222;
+            color: #cecece;
             -webkit-font-smoothing: auto;
             -webkit-overflow-scrolling: touch;
         }
@@ -12138,12 +12074,12 @@
         .filemgr-tree U.root .item-fix.plus .item SPAN,
         .filemgr-tree U.root .item-fix.pluslast .item SPAN,
         .filemgr-tree:not(.treeOutline) .item-fix.root .item SPAN {
-            background-image:url(images/tree_close_arrow_small.png);
-            background-repeat: no-repeat;
+          /* Fontawesome 5 - caret-right - path fill #cecece */
+          content: url("data:image/svg+xml,%3csvg aria-hidden='true' data-prefix='fas' data-icon='caret-right' class='svg-inline--fa fa-caret-right fa-w-6' role='img' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 512'%3e%3cpath fill='%23cecece' d='M0 384.662V127.338c0-17.818 21.543-26.741 34.142-14.142l128.662 128.662c7.81 7.81 7.81 20.474 0 28.284L34.142 398.804C21.543 411.404 0 402.48 0 384.662z'%3e%3c/path%3e%3c/svg%3e");
         }
         .treeOutline .item-fix.root.min .item SPAN {
-            background-image:url(images/tree_close_arrow_small.png) !important;
-            background-repeat: no-repeat;
+          /* Fontawesome 5 - caret-right - path fill #cecece (Used in code outline window) */
+          content: url("data:image/svg+xml,%3csvg aria-hidden='true' data-prefix='fas' data-icon='caret-right' class='svg-inline--fa fa-caret-right fa-w-6' role='img' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 512'%3e%3cpath fill='%23cecece' d='M0 384.662V127.338c0-17.818 21.543-26.741 34.142-14.142l128.662 128.662c7.81 7.81 7.81 20.474 0 28.284L34.142 398.804C21.543 411.404 0 402.48 0 384.662z'%3e%3c/path%3e%3c/svg%3e");
         }
         .dark .filemgr-tree U.root .item-fix.min .item SPAN,
         .dark .filemgr-tree U.root .item-fix.minlast .item SPAN,
@@ -12154,12 +12090,8 @@
 
         .filemgr-tree .item-fix.min .item SPAN,
         .filemgr-tree .item-fix.minlast .item SPAN {
-            background-position: -10px -1px;
-        }
-
-        .filemgr-tree .item-fix.plus .item SPAN,
-        .filemgr-tree .item-fix.pluslast .item SPAN {
-            background-position: 0 0;
+          /* Fontawesome 5 - caret-down - path fill #cecece */
+          content: url("data:image/svg+xml,%3csvg aria-hidden='true' data-prefix='fas' data-icon='caret-down' class='svg-inline--fa fa-caret-down fa-w-10' role='img' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 512'%3e%3cpath fill='%23cecece' d='M31.3 192h257.3c17.8 0 26.7 21.5 14.1 34.1L174.1 354.8c-7.8 7.8-20.5 7.8-28.3 0L17.2 226.1C4.6 213.5 13.5 192 31.3 192z'%3e%3c/path%3e%3c/svg%3e") !important;
         }
 
         .filemgr-tree .item LABEL {
@@ -12240,7 +12172,6 @@
             display: inline-block;
             background-color: #EAF1F7;
             border: 1px solid #90C3EF;
-            -moz-box-shadow: 0px 0px 6px #76839A;
             -webkit-box-shadow: 0px 0px 6px #76839A;
             box-shadow: 0px 0px 6px #76839A;
         }
@@ -12611,15 +12542,11 @@
             .img div {
                 width : 100%;
                 height : 100%;
-                display: -moz-box;
                 display: -webkit-box;
-                -moz-box-orient: horizontal;
                 -webkit-box-orient: horizontal;
                 box-orient: horizontal;
-                -moz-box-pack: center;
                 -webkit-box-pack: center;
                 box-pack: center;
-                -moz-box-align: center;
                 -webkit-box-align: center;
                 box-align: center;
             }

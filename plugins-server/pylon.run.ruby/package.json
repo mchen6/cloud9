@@ -1,0 +1,18 @@
+{
+    "name": "pylon.run.ruby",
+    "version": "0.0.1",
+
+    "main": "./ruby-plugin.js",
+    "private": true,
+
+    "plugin": {
+        "provides": [
+            "run-ruby"
+        ],
+        "consumes": [
+            "process-manager",
+            "sandbox",
+            "vfs"
+        ]
+    }
+}
